@@ -72,8 +72,8 @@ The project takes a data-driven approach by combining numerical and textual data
 <!-- NEXT STEPS -->
 ## Next Steps
 
-- **Baseline Modeling**: Implement unsupervised learning algorithms for anomaly detection and establish baseline performance metrics.
-- **Iterative Improvement**: Fine-tune model hyperparameters, experiment with different feature sets and engineering techniques, and consider ensemble methods and advanced algorithms.
+- **Modeling**: Implement unsupervised learning algorithms for anomaly detection and establish baseline performance metrics. Choose effective ones first.
+- **Iterative Changes**: Fine-tune model hyperparameters, experiment with different values. 
 - **Documentation and Reporting**: Document project steps, summarize findings, and communicate results to stakeholders.
 
 
@@ -82,15 +82,12 @@ The project takes a data-driven approach by combining numerical and textual data
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Tiffany Chu - tiffanymchu@gmail.com
 
-Project Link: [https://github.com/tiffchu/Anomaly_Detection_US_Senate]([https://github.com/your_username/repo_name](https://github.com/tiffchu/Anomaly_Detection_US_Senate/))
+Project Link: [https://github.com/tiffchu/Anomaly_Detection_US_Senate](https://github.com/tiffchu/Anomaly_Detection_US_Senate/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
