@@ -67,11 +67,11 @@ The project takes a data-driven approach by combining numerical and textual data
 ## EDA
 
 1. **Data Processing**: Merge and preprocess datasets, handle missing values, and ensure data consistency.
-2. **Feature Engineering**: Extract relevant features, including temporal, numerical, and textual features, and incorporate market indices.
+2. **Feature Engineering**: Extract relevant features, including temporal, numerical, and textual features. Then incorporate market indices.
 
 <!-- NEXT STEPS -->
 ## Next Steps
-
+ 
 - **Modeling**: Implement unsupervised learning algorithms for anomaly detection and establish baseline performance metrics. Choose effective ones first.
 - **Iterative Changes**: Fine-tune model hyperparameters, experiment with different values. 
 - **Documentation and Reporting**: Document project steps, summarize findings, and communicate results to stakeholders.
