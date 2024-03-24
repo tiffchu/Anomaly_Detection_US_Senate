@@ -14,6 +14,7 @@
     </li>
     <li><a href="#approach">Approach</a></li>
     <li><a href="#eda">EDA</a></li>
+    <li><a href="#Modelling">Modelling</a></li>
     <li><a href="#next-steps">Next Steps</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
@@ -41,16 +42,18 @@ Download the jupyter file in this repository, or open it in google colab.
 The dataset consists of combined data from Senate stock transactions and stock news events. It covers the period from 2020 to 2023 and contains approximately 30,000 rows and 12 relevant columns. Data quality concerns include missing values in news events and potential overlaps in news event timelines with transaction dates.
 
 These are the datasets I'll be using 
-- [SNES stock news events and sentiment](https://www.kaggle.com/datasets/parsabg/stocknewseventssentiment-snes-10) 
 - [Congress trades dataset](https://senatestockwatcher.com/api)
+- S&P Data from Yfinance
 
 <!-- ROADMAP -->
 ## Roadmap 
 
 - [x] EDA
 - [x] Update Readme
-- [ ] Find a stock market metric
-- [ ] Choose algorithms to classify data
+- [x] Scaling
+- [x] One hot encoding
+- [x] Find a stock market metric
+- [x] Choose algorithms to classify data
     - [ ] Clustering
     - [ ] Isolation forest
     - [ ] Encoders
@@ -68,11 +71,19 @@ The project takes a data-driven approach by combining numerical and textual data
 
 1. **Data Processing**: Merge and preprocess datasets, handle missing values, and ensure data consistency.
 2. **Feature Engineering**: Extract relevant features, including temporal, numerical, and textual features. Then incorporate market indices.
+3. **Sort Data**: Based on transaction dates, and make sure the merged dataset has matching dates.
+
+<!-- Modelling -->
+5. **Time Series Plots**: Baseline visualizations of the data based on dates
+6. **Scaling data**: So that certain columns dont dominate others. - Use robust scaling.
+7. **One hot encoding**: Turning categorical columns (type, party, industry, sector, owner) into numerical
+8. **Baseline Modelling**: Getting the models started for Autoencoding, hierarchical clustering, isolation forest
 
 <!-- NEXT STEPS -->
 ## Next Steps
  
-- **Modeling**: Implement unsupervised learning algorithms for anomaly detection and establish baseline performance metrics. Choose effective ones first.
+- **Deriving Model Performance and Explore Patterns and Trends**: Visualize the data surrounding the anomalies to identify any patterns or trends that might explain them
+- **Research Online**: Use domain knowledge to interpret the anomalies. confirm through manually searching anomalies. 
 - **Iterative Changes**: Fine-tune model hyperparameters, experiment with different values. 
 - **Documentation and Reporting**: Document project steps, summarize findings, and communicate results to stakeholders.
 
