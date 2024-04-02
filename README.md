@@ -122,6 +122,22 @@ it consists of an encoder and a decoder. The encoder compresses the input data i
 - oftentimes, they invest in the market (make a buy transaction) when the market is down or lower than average (when S&P price is low)
 - they also invest in the same sector that they are involved in making policies in, which is quite indicative of insider trading
 
+<div align="center">
+    <img src="images/1.png" alt="Logo" width="180" height="180">
+  </a>
+</div>
+
+<!-- MODELS -->
+## MODELS
+
+<div align="center">
+  <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate">
+    <img src="images/pcaauto.png" alt="pcaauto" width="180" height="180">
+    <p>PCA dimensionality reduction of autoencoder reconstruction data error</p>
+    <img src="images/agglo.png" alt="pcaagglo" width="180" height="180">
+    <p>PCA dimensionality reduction of data with agglomerative clustering label results</p>
+  </a>
+</div>
 
 
 <!-- LICENSE -->
