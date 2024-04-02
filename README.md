@@ -90,15 +90,13 @@ The project takes a data-driven approach by combining numerical and textual data
 - its a neural network that can be used for unsupervised learning tasks like anomaly detection
 it consists of an encoder and a decoder. The encoder compresses the input data into a lower-dimensional representation, and the decoder reconstructs the original input from this compressed representation, basically reducing its dimensions. It then predicts and reconstructs the data
 - anomalous rows should have really high reconstruction error, setting a threshold to classify points above it to be anomalous
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 <!-- NEXT STEPS -->
 ## Next Steps
- 
-- **Deriving Model Performance and Explore Patterns and Trends**: Visualize the data surrounding the anomalies to identify any patterns or trends that might explain them
-- **Research Online**: Use domain knowledge to interpret the anomalies. confirm through manually searching anomalies. 
-- **Iterative Changes**: Fine-tune model hyperparameters, experiment with different values. 
-- **Documentation and Reporting**: Document project steps, summarize findings, and communicate results to stakeholders.
-  
+- **Research Online**: Use domain knowledge to interpret the anomalies. confirm through manually searching anomalies. Update site as new information is released 
+- **Documentation and Reporting**: Communicate results to stakeholders.
 - **Implement feedback**: Get feedback from friends and peers. Talk to those with domain knowledge and see if they can confirm my findings.
 - **Improve Website**: Have a few judge the website and see how I can improve or add more to it.
 
