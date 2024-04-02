@@ -123,7 +123,7 @@ it consists of an encoder and a decoder. The encoder compresses the input data i
 - they also invest in the same sector that they are involved in making policies in, which is quite indicative of insider trading
 
 <div align="center">
-    <img src="images/6.png" alt="Logo" width="180" height="180">
+    <img src="images/6.png" alt="Logo" width="400" height="300">
    <p>Top 10 investors that were marked as anomalies</p>
 </div>
 
@@ -131,10 +131,10 @@ it consists of an encoder and a decoder. The encoder compresses the input data i
 ## Models
 
 <div align="center">
-    <img src="images/pcaauto.png" alt="pcaauto" width="180" height="180">
+    <img src="images/pcaauto.png" alt="pcaauto" width="300" height="250"> 
     <p>PCA dimensionality reduction of autoencoder reconstruction data error</p>
-    <img src="images/agglo.png" alt="pcaagglo" width="180" height="180">
-    <p>PCA dimensionality reduction of data with agglomerative clustering label results</p>
+    <img src="images/agglo.png" alt="pcaagglo" width="300" height="250"> 
+  <p>PCA dimensionality reduction of data with agglomerative clustering label results</p>
 </div>
 
 
