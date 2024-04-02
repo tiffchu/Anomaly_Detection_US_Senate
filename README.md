@@ -13,10 +13,11 @@
       </ul>
     </li>
     <li><a href="#approach">Approach</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#eda">EDA</a></li>
     <li><a href="#Modelling">Modelling</a></li>
     <li><a href="#next-steps">Next Steps</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#Findings">Findings</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -85,7 +86,11 @@ The project takes a data-driven approach by combining numerical and textual data
 - to identify the anomalous cluster, I chose the smaller cluster with points that are further from the central point.
   
 **Autoencoders**
-
+- autoencoders are often used in unsupervised anomaly detection tasks where labeled data for training and testing are not available
+- its a neural network that can be used for unsupervised learning tasks like anomaly detection
+it consists of an encoder and a decoder. The encoder compresses the input data into a lower-dimensional representation, and the decoder reconstructs the original input from this compressed representation, basically reducing its dimensions. It then predicts and reconstructs the data
+- anomalous rows should have really high reconstruction error, setting a threshold to classify points above it to be anomalous
+  
 <!-- NEXT STEPS -->
 ## Next Steps
  
@@ -93,6 +98,18 @@ The project takes a data-driven approach by combining numerical and textual data
 - **Research Online**: Use domain knowledge to interpret the anomalies. confirm through manually searching anomalies. 
 - **Iterative Changes**: Fine-tune model hyperparameters, experiment with different values. 
 - **Documentation and Reporting**: Document project steps, summarize findings, and communicate results to stakeholders.
+  
+- **Implement feedback**: Get feedback from friends and peers. Talk to those with domain knowledge and see if they can confirm my findings.
+- **Improve Website**: Have a few judge the website and see how I can improve or add more to it.
+
+<!-- Findings -->
+## Findings
+- posted on site: [https://sites.google.com/view/tiff-anomaly-detection/home](https://sites.google.com/view/tiff-anomaly-detection/home)
+- from extracting the congress members from anomalous rows, it is evident that those anomalies perform much better than the average law-abiding investor and non-anomalous congress members
+- the sheer volume and return of these anomalous congress members a much greater than when compared to stock market metrics like the S&P price and volume -- an indicator of market performance
+- oftentimes, they invest in the market (make a buy transaction) when the market is down or lower than average (when S&P price is low)
+- they also invest in the same sector that they are involved in making policies in, which is quite indicative of insider trading
+
 
 
 <!-- LICENSE -->
@@ -103,9 +120,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Tiffany Chu - tiffanymchu@gmail.com
+Tiffany Chu (me)- tiffanymchu@gmail.com
 
-Project Link: [https://github.com/tiffchu/Anomaly_Detection_US_Senate](https://github.com/tiffchu/Anomaly_Detection_US_Senate/)
+Github Link: [https://github.com/tiffchu/Anomaly_Detection_US_Senate](https://github.com/tiffchu/Anomaly_Detection_US_Senate/)
+
+Project Website Deployment: [https://sites.google.com/view/tiff-anomaly-detection/home](https://sites.google.com/view/tiff-anomaly-detection/home)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
