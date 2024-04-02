@@ -50,21 +50,23 @@ These are the datasets I'll be using
 
 - [x] EDA
 - [x] Update Readme
+- [x] Feature Engineering
+- [x] Merge dataset with stock data metrics 
 - [x] Scaling
 - [x] One hot encoding
-- [x] Find a stock market metric
-- [x] Choose algorithms to classify data
-    - [ ] Clustering
-    - [ ] Isolation forest
-    - [ ] Encoders
-    - [ ] LSTM
+- [x] Choose algorithms to classify data, and calculate their performance
+    - [x] Clustering
+    - [x] Encoders
+- [x] Combining the results of both models into a new dataset for anomalous rows 
+- [x] Visualizations, interpreting model
+- [x] Product Demo - Web App 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- APPROACH -->
 ## Approach
 
-The project takes a data-driven approach by combining numerical and textual data from Senate stock transactions and financial news. Unsupervised machine learning algorithms, including hierarchical clustering, isolation forest, and LSTM autoencoders, are utilized for anomaly detection. Feature engineering techniques such as sentiment analysis and market indices inclusion are employed to enhance model performance.
+The project takes a data-driven approach by combining numerical and textual data from Senate stock transactions and financial news. Unsupervised machine learning algorithms, including hierarchical clustering and LSTM autoencoders, are utilized for anomaly detection. Feature engineering techniques such as stock performance and market indices are used to enhance model performance.
 
 <!-- EDA -->
 ## EDA
@@ -72,12 +74,17 @@ The project takes a data-driven approach by combining numerical and textual data
 1. **Data Processing**: Merge and preprocess datasets, handle missing values, and ensure data consistency.
 2. **Feature Engineering**: Extract relevant features, including temporal, numerical, and textual features. Then incorporate market indices.
 3. **Sort Data**: Based on transaction dates, and make sure the merged dataset has matching dates.
+4. **Summary Statistics**: Finding the central tendencies of the data, more info on the dataset after merging different sources of info.
+5. **Time Series Plots**: Baseline visualizations of the data based on dates
+6. **Scaling data**: So that certain columns dont dominate others. - Using standard scaler.
+7. **One hot encoding**: Turning categorical columns (type, party, industry, sector, owner) into numerical
 
 <!-- Modelling -->
-5. **Time Series Plots**: Baseline visualizations of the data based on dates
-6. **Scaling data**: So that certain columns dont dominate others. - Use robust scaling.
-7. **One hot encoding**: Turning categorical columns (type, party, industry, sector, owner) into numerical
-8. **Baseline Modelling**: Getting the models started for Autoencoding, hierarchical clustering, isolation forest
+**Hierarchical Clustering**
+- using unsupervised learning to find two clusters - anomaly and non-anomaly. Using agglomerative clustering for grouping similar objects into clusters and also determine distances between points and sub-clusters at multiple levels.
+- to identify the anomalous cluster, I chose the smaller cluster with points that are further from the central point.
+  
+**Autoencoders**
 
 <!-- NEXT STEPS -->
 ## Next Steps
