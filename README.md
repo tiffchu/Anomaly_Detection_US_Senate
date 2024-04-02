@@ -1,19 +1,17 @@
 # Anomaly Detection of US Congressional Investments
 
-<br />
 <div align="center">
   <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate">
     <img src="images/imagelogo.jfif" alt="Logo" width="80" height="80">
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-    <br />
-    <a href="https://github.com/tiffchu/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/tiffchu/Best-README-Template/issues">Request Features</a>
-  </p>
 </div>
+
+<div align="center">
+  <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate/issues">Report Bug</a> ·
+  <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate/issues">Request Features</a> ·
+  <a href="https://sites.google.com/view/tiff-anomaly-detection/analysis-and-insights">Live Demo</a>
+</div>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
