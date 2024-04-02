@@ -1,4 +1,20 @@
-# Anomaly Detection of US Senate Investments
+# Anomaly Detection of US Congressional Investments
+
+<br />
+<div align="center">
+  <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate">
+    <img src="images/imagelogo.jfif" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+    <br />
+    <a href="https://github.com/tiffchu/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/tiffchu/Best-README-Template/issues">Request Features</a>
+  </p>
+</div>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -24,7 +40,7 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT-THE-PROJECT -->
 ## About The Project  📈
 
 This capstone analyzes time series data of stock transactions from US congress members, and aims to identify anomalies that may point to insider trading.
@@ -80,7 +96,7 @@ The project takes a data-driven approach by combining numerical and textual data
 6. **Scaling data**: So that certain columns dont dominate others. - Using standard scaler.
 7. **One hot encoding**: Turning categorical columns (type, party, industry, sector, owner) into numerical
 
-<!-- Modelling -->
+<!-- MODELLING -->
 **Hierarchical Clustering**
 - using unsupervised learning to find two clusters - anomaly and non-anomaly. Using agglomerative clustering for grouping similar objects into clusters and also determine distances between points and sub-clusters at multiple levels.
 - to identify the anomalous cluster, I chose the smaller cluster with points that are further from the central point.
@@ -100,7 +116,7 @@ it consists of an encoder and a decoder. The encoder compresses the input data i
 - **Implement feedback**: Get feedback from friends and peers. Talk to those with domain knowledge and see if they can confirm my findings.
 - **Improve Website**: Have a few judge the website and see how I can improve or add more to it.
 
-<!-- Findings -->
+<!-- FINDINGS -->
 ## Findings
 - posted on site: [https://sites.google.com/view/tiff-anomaly-detection/home](https://sites.google.com/view/tiff-anomaly-detection/home)
 - from extracting the congress members from anomalous rows, it is evident that those anomalies perform much better than the average law-abiding investor and non-anomalous congress members
