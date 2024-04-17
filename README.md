@@ -46,8 +46,7 @@ This capstone analyzes time series data of stock transactions from US congress m
 #### Problem Statement 🤯
 * Members of Congress wield significant influence over companies they invest in, raising concerns about potential conflicts of interest and unfair advantages in financial markets
 * The STOCK Act mandates public reporting of asset transactions by Congress members, providing an opportunity to detect and prevent insider trading
-* This project addresses the challenge of identifying abnormal stock purchases that may warrant further investigation.
-others
+* This project addresses the challenge of identifying abnormal stock purchases that may warrant further investigation, especially when under accusation of insider trading
 
 <!-- GETTING STARTED -->
 ## Getting Started
