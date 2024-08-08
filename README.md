@@ -157,4 +157,4 @@ Project Website Deployment: [https://sites.google.com/view/tiff-anomaly-detectio
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-- me and brainstation 👩‍❤️‍👩
+- me and stackoverflow 👩‍❤️‍👩
