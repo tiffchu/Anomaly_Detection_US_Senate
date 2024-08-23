@@ -9,7 +9,7 @@
 <div align="center">
   <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate/issues">Report Bug</a> ·
   <a href="https://github.com/tiffchu/Anomaly_Detection_US_Senate/issues">Request Features</a> ·
-  <a href="https://sites.google.com/view/tiff-anomaly-detection/home">Live Demo</a>
+  <a href="https://sites.google.com/view/tiff-anomaly-detection/home">Live Demo (CLICK HERE!)</a>
 </div>
 
 
